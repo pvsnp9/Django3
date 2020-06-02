@@ -1,0 +1,6 @@
+{% extends 'accounts/main.html' %} 
+{% block content %}
+{% include 'accounts/stats.html' %}
+
+    <p>HI, I am {{ request.user }}</p>
+{% endblock %}
